@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+ <link rel="stylesheet" href="./CSS/reset.css">
+ <link rel="stylesheet" href="./CSS/style.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <title>クリ★スタ XDカンプ初級</title>
+</head>
+
+<body>
+ <header class="header">
+  <h1 class="site-title">クリ★スタ</h1>
+
+   <nav class="gnav">
+    <ul class="gnav-list">
+     <li class="gnav-item"><a href="#about">About</a></li>
+     <li class="gnav-item"><a href="#service">Service</a></li>
+     <li class="gnav-item"><a href="#contents">Contents</a></li>
+    </ul>
+   </nav>
+
+  <button class="burger-btn">
+   <img class="bar bar_top" src="./IMG/icon_bar.svg">
+   <img class="bar bar_middle" src="./IMG/icon_bar.svg">
+   <img class="bar bar_bottom" src="./IMG/icon_bar.svg">
+  </button><!-- burger-btn -->
+ </header>
+
+ <div class="first-view">
+  <div class="copy_en">Cresta Design</div>
+ </div>
+
+ <main class="main-wrap">
+  
+  <section class="section-wrap" id="about">
+   <h2 class="section-heading">About</h2>
+   <div class="section-content_wrap"> 
+    <p class="about-lead">ミニマルで<br>洗練れされたデザインを。</p>
+    <p class="about-text">近年、ミニマルなデザインが流行しています。そこで弊社では、クライアント企業様新規サービス等の課題に対してミニマルで洗練されたデザインを実現させることで解決のサポートを致します。もちろん全てのサービスにおいてミニマルなデザインが課題解決になるわけではないので、課題や今後のサービスの展開等しっかりとヒアリングを行なった上でご提案させて頂きます。</p>
+   </div><!-- section-content_wrap -->
+  </section><!-- section-wrap -->
+
+  <section class="section-wrap" id="service">
+   <h2 class="section-heading">Service</h2>
+   <div class="section-content_wrap service-items">
+
+    <div class="service-item reverse">
+     <div class="service-content_text">
+      <p class="service-lead">リリース時のサポートで<br>サービスのブランディングを</p>
+      <p class="service-text">弊社では、リリース時もサポートさせて頂きます。プレスリリース用のサイトや動画制作を通して、サービスのブランディングを行わせて頂きます。</p>
+     </div><!-- service-content_text -->
+     
+      <img class="service-img" src="./IMG/service-image1.jpg" alt="カメラ">
+
+    </div><!-- service-item reverse -->
+
+    <div class="service-item">
+     <div class="service-content_text">
+      <p class="service-lead">リリース後のサポートで<br>
+       効果を最大化させる</p>
+      <p class="service-text">弊社では、リリース後もサポートさせて頂きます。サービスはリリース後に様々な課題にぶつかります。そこでクライアント様と一緒に改善を行うことで、デザインの効果を最大化させます。</p>
+     </div>
+      <img class="service-img" src="./IMG/service-image2.jpg" alt="ケータイ">
+    </div>
+   </div><!-- service-items -->
+  </section><!-- section-wrap -->
+
+  <section class="section-wrap news-wrap" id="contents">
+   <h2 class="section-heading">News</h2>
+   <div class="section-content_wrap">
+    <div class="news-cards">
+     
+      <div class="news-card">
+      <img class="news-card_img" src="./IMG/card-image1.jpg" alt="phone">
+      <p class="news-card_text">新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+      </div>
+      
+      <div class="news-card"> 
+        <img class="news-card_img" src="./IMG/card-image2.jpg" alt="i-phone">
+        <p class="news-card_text">新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+      </div>
+
+      <div class="news-card"> 
+        <img class="news-card_img" src="./IMG/card-image3.jpg" alt="laptop">
+        <p class="news-card_text">新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+      </div>
+
+    </div><!-- news-cards -->
+   </div><!-- section-content_wrap -->
+  </section>
+
+  <section class="section-wrap">
+   <h2 class="section-heading">お問い合わせ</h2>
+   <div class="section-content_wrap form-wrap">
+    <form action="">
+     <label class="form_label" for="name">担当者名</label>
+     <input class="form_input" type="text" id="name">
+
+     <label class="form_label" for="tel">電話番号</label>
+     <input class="form_input" type="tel" id="tel">
+
+     <label class="form_label" for="email">メールアドレス</label>
+     <input class="form_input" type="email" id="email">
+
+     <label for="inquiry" class="form-_label">お問い合わせ内容</label>
+     <textarea class="form_textarea" name="form_textarea" id="inquiry" cols="30" rows="10"></textarea>
+     <div class="submit_btn-wrap">
+      <input type="submit" class="submit_btn" value="送信">
+     </div>
+    </form>
+   </div>
+  </section>
+
+ </main>
+
+
+ <footer class="footer">
+  <small>&copy;crest.design all rights reserved</small>
+ </footer>
+ <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+ <!-- https://developers.google.com/speed/libraries -->
+
+ <script src="./JS/script.js"></script>
+</body>
+
+</html>
